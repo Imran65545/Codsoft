@@ -1,0 +1,543 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow:hidden; */
+    font-family: sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+}
+
+.infonav{
+    height: 45px;
+    width: 100%;
+    background-color: #60646D;
+    color:#BBBFC9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p2 span::after{
+    content: "Monday to Saturday - 8am to 9pm";
+    color: #fff;
+}
+
+.p2 .para::before{
+    content: "contact:";
+    color: #fff;
+}
+
+.nav-bar{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main-menu{
+    height: 38px;
+    width: 96px;
+    padding: 5px 14px;
+    color: #60646D;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+}
+
+.main-menu:hover{
+    background-color: #67C9E0;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+
+
+}
+
+.menu-nav{
+    width: 769px;
+    width: 769px;
+    padding: 30px 0px;
+    height: 38px;
+    list-style-type: none;
+    display: flex;
+      
+}
+
+.Home{
+    background-color: #67C9E0;
+    color: #fff;
+    width: 75px;
+    height: 35px;
+    text-align: center;
+}
+
+
+
+.heroimg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.content-container{
+    height: 212px;
+    width: 100%;
+    position: absolute;
+    top: 87px;
+    
+
+
+}
+
+.content{
+    width: 501px;
+    position: absolute;
+    left: 190px;
+}
+
+.heading{
+    display: flex;
+    gap:10px;
+    font-size: 38px;
+}
+
+ .content h2 .span-tag{
+    font-weight:900;
+
+}
+
+.hero-img{
+    position: relative;
+}
+
+
+.heading h2{
+    font-weight:100;
+    color:#3A3C41;
+}
+
+.content h2 i{
+    font-size: 28px;
+    color:red;
+}
+
+.texts{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #3A3C41;
+    font-family: Raleway sans-serif;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.btn button{
+    width: 142px;
+    height: 41px;
+    background-color: #F15B5A;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.btn button:hover{
+    background-color: #3A3C41;
+}
+
+.appointment-sec{
+    width: 233px;
+    height: 37px;
+    color:white;
+    margin-top: -36px;
+    margin-left: 192px;
+}
+
+.make-appoint{
+    font-size: 15px;
+    background-color: #3a3c41;
+    display: block;
+    text-align: left;
+    position: relative;
+    z-index: 99;
+    padding: 7px 15px;
+    font-family: sans-serif;
+}
+
+.make-appoint:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+.appointment-sec i{
+    margin-left: 44px;
+}
+
+.home-features-container{
+    width: 1519px;
+    height: 514px;
+    padding: 52px 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-features{
+    width: 1170px;
+    height: 394px;
+    display: flex;
+}
+
+
+
+.content1{
+    width: 360px;
+    min-height: 100%;
+}
+
+.content1 h2 span{
+    font-weight: 700;
+    color: #3a3c41;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.content1  p{
+    color: #7B7D85;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    line-break: auto;
+}
+
+.content1 button{
+    width: 236px;
+    height: 52px;
+    background-color: #F15B5A;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.content1 button:hover{
+    background-color: #3A3C41;
+    cursor: pointer;
+}
+
+.contents{
+    width: 390px;
+}
+
+.contain2-3{
+    height: 197px;
+    width: 100%;
+    display: flex;
+    margin-left: 29px;
+    gap: 36px;
+}
+
+
+.contain4-5{
+    width: 780px;
+    height: 197px;
+    display: flex;
+    margin-left: 29px;
+    gap: 36px;
+    
+    
+}
+
+ .c2 i{
+    font-size: 61px;
+    color: #67C9E0;
+
+}
+
+.c2 h3{
+    color:#3A3C41;
+    font-size: 22px;
+}
+
+.c2 p{
+    color:#7B7D85;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.c2{
+    position: relative;
+}
+
+.c2 .all-text{
+    top: 0;
+    position: absolute;
+    left: 80px;
+}
+
+.c2 .emergency{
+    margin-left: 12px;
+}
+
+.doctors-feed{
+    width: 1500px;
+    height: 736px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f5f7;
+
+}
+
+.doc-container{
+    width: 1170px;
+    height: 626px;
+}
+
+.card-container{
+    display: flex;
+    gap: 36px;
+}
+
+.doc-heading h2::before{
+    content: "Meet our ";
+    font-weight: 100;
+}
+
+.doc-heading h2{
+    font-weight: 800;
+
+}
+
+.doc-heading{
+    font-size: 20px;
+    text-align: center;
+    height: 117px;
+}
+
+.doc-heading p{
+    font-size: 14px;
+    color: #7B7D85;
+    margin-top: 10px;
+}
+
+.doc-img img{
+    width: 262px;
+    height: 195px;
+
+}
+
+.text-content h5{
+    width: 232px;
+    height: 19px;
+    margin:14px 10px 20px;
+    font-size: 18px;
+    color: #3A3C41;
+    text-align: center;
+}
+
+.text-content p{
+    width: 232px;
+    height: 122px;
+    color: #7B7D85;
+    font-size: 14px;
+    text-align: center;
+    padding: 18px;
+}
+
+.border{
+    border: .2px solid grey;
+    margin-left: 18px;
+    width: 235px;
+}
+
+.card{
+    width: 292px;
+    height: 460px;
+    position: relative;
+    background-color: #fff;
+}
+
+.card button{
+    width: 121px;
+    height: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    background: #67C9E0;
+    cursor: pointer;
+    border: none;
+}
+
+.card button:hover{
+    background-color: #F15B5A;
+}
+
+.doc-btn{
+    position: absolute;
+    bottom: -43px;
+    left: 82px;
+}
+
+.border2{
+    border: 2px solid red;
+}
+
+footer{
+    background-color: #3A3C41;
+    position: relative;
+
+}
+
+.footer-container{
+    width: 1500px;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-content{
+    width: 1170px;
+    height: 511px;
+    display: flex;
+    gap: 42px;
+    margin-top: 101px;
+}
+
+.content1{
+    width: 292px;
+    height: 335px;
+    
+}
+
+.content1 h3{
+    color: #F0F5F7;
+    font-size: 18px;
+    margin: 0px 0px 30px;
+}
+
+
+.content1 .p1{
+    margin: 0px 0px 32px;
+    color:#9BA0AA;
+    font-size: 14px;
+    word-spacing: 6px;
+    
+}
+
+ .footer-container .content2{
+    height: 399px;
+}
+
+.content1 li{
+    color: #999ca5;
+    font-size: 14px;
+    margin: 13px 0px 10px;
+    padding: 0px 0px 22px;
+    border-bottom: 1px solid grey;
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+
+.content1 li:hover{
+    color: #bdc0c2;
+    
+}
+
+.content1 .li5{
+    border: none;
+}
+
+form{
+    width: 262px;
+    height: 228px;
+    font-size: 14px;
+    color: #9ba0aa;
+}
+
+form input{
+    background-color: #515259;
+    margin: 15px 0px 13px;
+    padding: 12px 15px;
+    border: none;
+    color: #fff;
+}
+
+form .submit-btn{
+    width: 104px;
+    height: 48px;
+    background-color: #67C9E0;
+    color: #fff;
+    padding: 12px 25px;
+}
+
+form .submit-btn:hover{
+    background-color: #4dbed9;
+    cursor: pointer;
+}
+
+
+
+.footer .copyright{
+    width: 1170px;
+    height: 113px;
+    padding: 26px 0px 0px;
+    position: absolute;
+    background-color: #3a3c41;
+    width: 100%;
+    border-top:1px solid #4a4c52;
+
+}
+
+.footer .copyright p{
+    font-size: 14px;
+    color: #7A7D86;
+}
+
+  .footer .copyright-links{
+    width: 487px;
+    height: 24px;
+}
+
+.footer .copyright-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright-links ul{
+    width: 210px;
+    height: 24px;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-align: center;
+    margin-left: 302px;
+
+}
+
+.copyright-links  li i{
+    font-size: 18px;
+    /* color: #53565c; */
+    color: #55565a;
+
+}
+
+.copyright-links  li i:hover{
+    color: #fff;
+    cursor: pointer;
+}
