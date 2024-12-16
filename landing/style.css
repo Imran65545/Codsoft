@@ -116,7 +116,12 @@ body::-webkit-scrollbar {
 
 }
 
-.hero-img{
+.hero-section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.heroimg{
     position: relative;
 }
 
@@ -191,6 +196,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -120px;
 }
 
 .home-features{
@@ -540,4 +546,83 @@ form .submit-btn:hover{
 .copyright-links  li i:hover{
     color: #fff;
     cursor: pointer;
+}
+
+
+
+.heroimg-slideshow-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.heroimg-slideshow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.heroimg-slideshow .heroimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.heroimg-slideshow .heroimg.active {
+  opacity: 1;
+}
+
+/* Navigation Arrows */
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dots */
+.dots-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.dots-container .dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots-container .dot.active {
+  background-color: white;
 }
