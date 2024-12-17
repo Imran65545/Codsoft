@@ -5,12 +5,12 @@
 *{
     margin: 0;
     padding: 0;
-    /* overflow:hidden; */
+    
     font-family: sans-serif;
 }
 
 body::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge */
+    display: none; 
 }
 
 .infonav{
@@ -538,7 +538,7 @@ form .submit-btn:hover{
 
 .copyright-links  li i{
     font-size: 18px;
-    /* color: #53565c; */
+    
     color: #55565a;
 
 }
@@ -577,7 +577,6 @@ form .submit-btn:hover{
   opacity: 1;
 }
 
-/* Navigation Arrows */
 .prev,
 .next {
   position: absolute;
@@ -601,11 +600,11 @@ form .submit-btn:hover{
 }
 
 .prev:hover,
-.next:hover {
+   .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Dots */
+
 .dots-container {
   position: absolute;
   bottom: 20px;

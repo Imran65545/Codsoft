@@ -137,21 +137,29 @@ header .nav-bar {
     
 }
 
-.text-content button{
+.text-content a{
     padding: 13.5px 25px;
     background-color: orangered;
     border-radius: 6px;
     color: #fff;
     font-size: 15px;
     font-weight: bold;
+    border: 1px solid black;
+    text-decoration: none;
     cursor: pointer;
     transition: 0.3s ease;
 }
-.text-content button:hover{
+
+.text-content .btn{
+    margin-right: 20px;
+}
+
+
+.text-content a:hover{
     background-color: #fff;
     color:orangered;
 }
-.text-content button:active{
+.text-content a:active{
     background-color: orangered;
     color: #000;
 }
