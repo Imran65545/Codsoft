@@ -629,7 +629,7 @@ header .nav-bar {
 .contact-container{
     height: 100vh;
     width: 99vw;
-    background-image: url("images/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -650,7 +650,7 @@ header .nav-bar {
     width: 554px;
     height: 555px;
    
-    background-image: url("images/heroimg-1-removebg-preview.png");
+    background-image: url("heroimg-1-removebg-preview.png");
     background-color: #000;
     background-size: cover;
 }
